@@ -22,7 +22,6 @@ public class See extends HttpServlet {
 	@Override
 	public void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		System.out.println("ok");
 		response.sendRedirect(request.getContextPath() + "/index.jsp");
 	}
 
